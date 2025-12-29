@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gartner Magic Quadrant - Backup and Data Protection Platforms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .student-info {
+            background: white;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .student-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+            padding: 1rem;
+            flex-shrink: 0;
+        }
+
+        .student-details h2 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .student-details p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .gmq-graphic {
+            background: white;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .gmq-graphic h2 {
+            color: #667eea;
+            margin-bottom: 1.5rem;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            color: #666;
+            border: 2px dashed #999;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-placeholder {
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border-left: 4px solid #667eea;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #666;
+        }
+
+        .quadrant-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .quadrant-card {
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .quadrant-card h4 {
+            color: #667eea;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .student-info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            .quadrant-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gartner Magic Quadrant</h1>
+        <p>Backup and Data Protection Platforms</p>
+    </header>
+
+    <div class="student-info">
+        <div class="student-photo">
+            <img src="profile-photo.png" alt="Your Name" style="width: 190%; height: 190%; object-fit: cover; border-radius: 50%;"><br>
+        </div>
+        <div class="student-details">
+            <h2>Sultan Bacaksız</h2>
+            <p><strong>Student Number:</strong> 2024502216</p>
+            <p><strong>Course:</strong> Management Information Technologies</p>
+        </div>
+    </div>
+
+    <div class="gmq-graphic">
+        <h2>Magic Quadrant for Backup and Data Protection Platforms</h2>
+        <div class="placeholder-image">
+            <img src="gmq-graphic.png" alt="Gartner Magic Quadrant" style="max-width: 100%; height: auto;"><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Section 1: Overview -->
+        <section class="section">
+            <h2>1. Overview of the Gartner Magic Quadrant</h2>
+            <p>The Gartner Magic Quadrant (MQ) is a research tool created by Gartner to help businesses evaluate technology vendors. These reports are published for specific technology sectors and updated every one to two years.</p>
+            
+            <p>The Magic Quadrant places vendors on a two-dimensional graph based on "Ability to Execute" and "Completeness of Vision." The horizontal axis measures "Completeness of Vision"—how well a vendor understands market direction and drives innovation. High vision scores indicate vendors introducing new technologies and setting trends. The vertical axis measures "Ability to Execute"—how effectively a vendor delivers on promises today, including product quality, financial stability, and customer support.</p>
+            
+            <p>For backup and data protection platforms, the Magic Quadrant helps organizations evaluate vendors protecting enterprise data across on-premises data centers, cloud providers, and SaaS applications—critical for recovery and ransomware protection.</p>
+        </section>
+
+        <!-- Section 2: Explanation of Quadrants -->
+        <section class="section">
+            <h2>2. Explanation of the Four Quadrants</h2>
+            
+            <div class="quadrant-grid">
+                <div class="quadrant-card">
+                    <h4>Leaders</h4>
+                    <p><strong>Leaders</strong> (top-right) have both high execution and strong vision. In 2025, the Leaders are Cohesity, Commvault, Dell Technologies, Druva, Rubrik, and Veeam. They offer complete solutions with AI-powered ransomware detection and automated recovery.</p>
+                </div>
+
+                <div class="quadrant-card">
+                    <h4>Challengers</h4>
+                    <p><strong>Challengers</strong> (top-left) show strong execution but limited vision. Huawei is the Challenger, executing well with all-flash appliances but limited by focus on its own ecosystem.</p>
+                </div>
+
+                <div class="quadrant-card">
+                    <h4>Visionaries</h4>
+                    <p><strong>Visionaries</strong> (bottom-right) have strong innovation but haven't reached Leader-level execution. HYCU and IBM are Visionaries. HYCU shows strong SaaS protection but serves mainly midmarket customers. IBM brings innovative AI through watsonx but faces third-party dependencies.</p>
+                </div>
+
+                <div class="quadrant-card">
+                    <h4>Niche Players</h4>
+                    <p><strong>Niche Players</strong> (bottom-left) are excellent for specific use cases or market segments. Arcserve, OpenText, and Unitrends focus on midmarket customers and can be cost-effective for focused requirements.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Criteria for Evaluation -->
+        <section class="section">
+            <h2>3. Criteria for Evaluation</h2>
+            <p>Gartner uses a detailed methodology to evaluate vendors across both axes, with specific weighted criteria for each.</p>
+
+            <h3>Ability to Execute Criteria</h3>
+            <p><strong>Ability to Execute</strong> focuses on current performance:</p>
+            <ul style="margin-left: 2rem; line-height: 1.8;">
+                <li><strong>"Product or Service" (High):</strong> Product capabilities, data protection across environments, disaster recovery, ransomware detection</li>
+                <li><strong>"Customer Experience" (High):</strong> Technical support quality and customer satisfaction</li>
+                <li><strong>"Market Responsiveness/Record" (High):</strong> Keeping pace with emerging requirements</li>
+                <li><strong>Other criteria:</strong> Overall Viability (financial health), Sales Execution/Pricing, Marketing Execution</li>
+            </ul>
+
+            <h3>Completeness of Vision Criteria</h3>
+            <p><strong>Completeness of Vision</strong> evaluates future strategy:</p>
+            <ul style="margin-left: 2rem; line-height: 1.8;">
+                <li><strong>"Market Understanding" (High):</strong> Comprehending customer needs and market trends</li>
+                <li><strong>"Offering Strategy" (High):</strong> Product development plans and addressing gaps</li>
+                <li><strong>"Innovation" (High):</strong> Creating differentiated capabilities like Rubrik's Annapurna GenAI platform, Druva's AI investigation tools, Cohesity's automated recovery</li>
+                <li><strong>Other criteria:</strong> Marketing Strategy, Sales Strategy, Business Model, Geographic Strategy</li>
+            </ul>
+            
+            <p style="margin-top: 1.5rem;">Inclusion requires $75+ million annual revenue (or $30+ million with 20% growth), 1,000+ customers, presence in three+ geographies, support for two+ public clouds, and mandatory features including multicloud backup, immutable storage, and cyberrecovery capabilities.</p>
+        </section>
+
+        <!-- Section 4: Importance and Impact -->
+        <section class="section">
+            <h2>4. Importance and Impact</h2>
+            <p>The Magic Quadrant significantly influences buyers and vendors in the backup market.</p>
+            
+            <p>For buyers, it serves as a trusted starting point for evaluating solutions. Organizations use it to create vendor shortlists, often focusing on Leaders and Challengers. Detailed profiles help match solutions to specific needs.</p>
+            
+            <p>The Magic Quadrant influences procurement. Leader positioning provides credibility and can justify higher prices. Some organizations require vendors to appear in relevant Magic Quadrants.</p>
+            
+            <p>For vendors, placement has major business implications. Strong positioning provides validation that sales teams leverage extensively. Movement up brings increased sales, while downward movement raises customer concerns. The Magic Quadrant also shapes vendor strategy—vendors align roadmaps to address gaps for future advancement.</p>
+            
+            <p>For backup specifically, emphasis on AI-powered ransomware detection and SaaS protection has accelerated vendor investment in these areas. However, smart buyers use it as one input combined with hands-on evaluations and requirement assessments.</p>
+        </section>
+
+        <!-- Section 5: Critical Analysis -->
+        <section class="section">
+            <h2>5. Critical Analysis</h2>
+            
+            <h3>Strengths of the Magic Quadrant</h3>
+            <p>The Magic Quadrant distills complex information into clear, visual format. The standardized framework provides consistent criteria across vendors. Gartner combines quantitative data and qualitative analysis from customer references, financial performance, and product reviews. Regular updates keep information relevant.</p>
+
+            <h3>Limitations and Criticisms</h3>
+            <p>The Magic Quadrant oversimplifies by reducing capabilities to a single point—vendors might excel in some areas while being weaker in others. The methodology favors larger vendors. Inclusion criteria requiring significant revenue exclude smaller innovative companies. There are concerns about bias toward vendors engaging more heavily with Gartner. The Magic Quadrant creates self-fulfilling prophecies—Leader positioning brings increased sales, reinforcing leadership.</p>
+
+            <h3>Controversies and Effective Use</h3>
+            <p>Microsoft was dropped from 2025 research despite market dominance because Azure Backup lacks multicloud support. Open-source vendors face challenges with revenue-based inclusion criteria. A 2009 lawsuit by ZL Technologies challenged the Magic Quadrant's legitimacy, though resolved in Gartner's favor.</p>
+            
+            <p>The Magic Quadrant is best used as one input among many—a starting point combined with hands-on demonstrations, reference calls, and requirement assessments.</p>
+        </section>
+
+        <!-- Section 6: Recent Trends and Updates -->
+        <section class="section">
+            <h2>6. Recent Trends and Updates</h2>
+            
+            <p><strong>Ransomware Protection:</strong> The dominant trend is ransomware protection. Gartner predicts 95% of backup products will include cyberthreat detection by 2029, up from 55% in 2025. Rubrik offers AI-based anomaly detection, Veeam provides multiple protection layers with recovery warranty, and Druva offers 24/7 managed detection.</p>
+            
+            <p><strong>Hybrid and Multicloud:</strong> By 2029, 75% of enterprises will use common solutions for on-premises and cloud backup, versus 25% in 2025. Vendors are expanding cloud-native integration. Commvault's Cloud Rewind enables complete application stack protection including infrastructure-as-code.</p>
+            
+            <p><strong>SaaS Application Protection:</strong> By 2029, 80% of enterprises will prioritize SaaS backup, versus 20% in 2025. Beyond Microsoft 365, vendors are adding Salesforce, Google Workspace, and Atlassian products. Identity management backup is emerging as critical.</p>
+            
+            <p><strong>Artificial Intelligence:</strong> By 2029, 90% of products will integrate generative AI, up from fewer than 25% in 2025. AI is used for ransomware detection using ML models. GenAI simplifies administration. Agentic AI for autonomous operations is emerging. Rubrik's Annapurna enables building GenAI applications on backup data.</p>
+            
+            <p><strong>Backup as a Service and Expanded Use Cases:</strong> By 2029, 85% of large enterprises will adopt BaaS, versus 25% in 2025. Platforms are expanding beyond recovery to include sensitive data scanning and investigations for compliance and security.</p>
+            
+            <p><strong>Market Changes:</strong> Consolidation continues with the Cohesity-Veritas merger. The landscape shows polarization between comprehensive enterprise platforms (Leaders) and focused niche players.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gartner Magic Quadrant Analysis - Backup and Data Protection Platforms</p>
+        <p>Created for academic purposes</p>
+    </footer>
+</body>
+</html>
